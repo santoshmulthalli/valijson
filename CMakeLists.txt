@@ -73,6 +73,7 @@ add_executable(external_schema
 set(TEST_SOURCES
     tests/test_adapter_comparison.cpp
     tests/test_fetch_document_callback.cpp
+    tests/test_graph_parser.cpp
     tests/test_json_pointer.cpp
     tests/test_jsoncpp_adapter.cpp
     tests/test_property_tree_adapter.cpp
